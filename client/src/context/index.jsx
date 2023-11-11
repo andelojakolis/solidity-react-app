@@ -58,6 +58,8 @@ export const StateContextProvider = ({ children }) => {
     return filteredCampaigns;
   }
 
+  
+
   return (
     <StateContext.Provider
         value={{
