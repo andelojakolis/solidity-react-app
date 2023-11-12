@@ -39,7 +39,8 @@ const CampaignDetails = () => {
         </div>
 
       </div>
-      <div className='mt-[40px] flex lg:flex-row flex-col gap-5'>
+      <div className='flex gap-[300px]'>
+      <div className='mt-[40px] flex flex-col gap-5'>
         <div className='mt-[20px] flex-[2] flex flex-col gap-[40px]'>
           <h4 className='font-epilogue font-semibold text-[18px] text-white uppercase'>Creator</h4>
           <div className=' flex flex-row items-center flex-wrap gap-[14px]'>
@@ -74,7 +75,7 @@ const CampaignDetails = () => {
         </div>
       </div>
 
-      <div className='mt-[20px] flex-1'>
+      <div className='mt-[60px] flex-1'>
         <h4 className='font-epilogue font-semibold text-[18px] text-white uppercase'>Fund</h4>
         <div className='mt-[20px] flex flex-col p-4 bg-[#1c1c24] rounded-[10px]'>
           <p className='font-epilogue font-medium text-[#808191] text-[20px] leading-[30px] text-center'>Fund the campaign</p>
@@ -100,7 +101,7 @@ const CampaignDetails = () => {
           </div>
         </div>
       </div>
-      
+    </div>  
     </div>
   )
 }
